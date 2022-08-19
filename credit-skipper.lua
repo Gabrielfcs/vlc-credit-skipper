@@ -149,7 +149,7 @@ function start_playlist()
             end
 
             if skip_finish > 0 then
-                table.insert(options, "stop-time=" .. (child.duration - skip_finish))
+                table.insert(options, "stop-time=" .. skip_finish)
             end
         end
 
